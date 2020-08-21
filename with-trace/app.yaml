@@ -1,0 +1,6 @@
+runtime: go114
+service: with-trace
+handlers:
+  - url: /.*
+    script: auto
+    secure: always

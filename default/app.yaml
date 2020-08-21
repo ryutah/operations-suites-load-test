@@ -1,0 +1,6 @@
+runtime: go114
+service: not-use-suites
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
